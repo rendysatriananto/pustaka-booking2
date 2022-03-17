@@ -5,7 +5,6 @@
 	});
 	$('.alert-message').alert().delay(3000).slideUp('slow');
 
-	var a = 1;
 </script>
 </body>
 </html>
