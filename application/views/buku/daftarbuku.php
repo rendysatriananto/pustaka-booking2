@@ -36,7 +36,7 @@ base_url(); ?>assets/img/upload/<?= $buku->image; ?>" style="max-width:100%; max
 <p>
 <?php
 if ($buku->stok < 1) {
-echo "<i class='btn btn-outline-primary fas fw fa-shopping-cart'> Booking&nbsp;&nbsp 0</i>";
+echo "<i class=' disabled btn btn-outline-primary fas fw fa-ban' style='color:red'>Stock&nbsp;&nbsp 0</i>";
 } else {
 echo "<a class='btn btn-outline-primary fas fw fa-shopping-cart' href='" . 
 base_url('booking/tambahBooking/' . $buku->id) . "'> Booking</a>";
